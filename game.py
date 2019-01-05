@@ -1,3 +1,5 @@
+# import libraries
+
 import turtle
 import os
 import math
@@ -235,4 +237,3 @@ while True:
     if bullet.ycor() > 275:
         bullet.hideturtle()
         bulletstate = "ready"
-
